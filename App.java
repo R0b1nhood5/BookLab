@@ -69,7 +69,7 @@ public class App {
         System.out.println(aBook.pigLatin("hello"));
         System.out.println(aBook.translateWord(""));
         try {
-            System.out.println("Book Title: " + "Alice in the wonderland.");
+            System.out.println("Book Title: " + "Alice in the wonderland. ");
             // Read the URL
             book = readURL("https://www.gutenberg.org/cache/epub/11/pg11.txt");
             // System.out.println("Book Length: " + book.length());

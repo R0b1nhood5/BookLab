@@ -40,6 +40,7 @@ public class Book {
         } else {
             pigLatin = pigLatin + word.substring(0, endIndex) + word.substring(0, vowelIndex) + "way";
         }
+        //add the punctuation
         pigLatin = pigLatin + word.substring(endIndex, word.length());
 
         if (upperCaseStart) {
